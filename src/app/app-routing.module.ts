@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 //import { Pagina2Component } from './pagina2/pagina2.component';
 
 const routes: Routes = [
-//{ path: '', redirectTo: '/pagina1', pathMatch: 'full' },
+{ path: '', redirectTo: '/pagina1', pathMatch: 'full' },
 //{ path: 'pagina1', component: Pagina1Component },
 //{ path: 'pagina2', component: Pagina2Component }
 
