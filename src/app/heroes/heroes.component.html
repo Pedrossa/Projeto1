@@ -1,31 +1,4 @@
 
-
-<div class="container card "*ngIf="selectedHero">
-
-<h2>
-  Heroes works! {{selectedHero.name}}
-</h2>
-<div>
-
-<span>id:</span>
-{{selectedHero.id}}
-
-
-</div>
-<div>
-<span>Nome :</span>
-{{selectedHero.name}}
-</div>
-
-<div> 
-  <label> Nome :</label>
-  <input [(ngModel)] ="hero.name" />
-</div>
-
-<!--
-  importar FormModule em app.module.ts
--->
-  </div>
 <div class ="container alert alert-success">
 <H2>My heroes</H2>
 
@@ -35,3 +8,5 @@
     {{hero.name}}
   </li>
 </ul></div>
+
+<app-heroes-detail [hero]="selectedHero"></app-heroes-detail>
